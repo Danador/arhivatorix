@@ -1,0 +1,20 @@
+{
+  "name": "arhivatorix",
+  "version": "1.0.0",
+  "description": "function for those who often work with archives and need to unzip them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danador",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "adm-zip": "^0.5.2",
+    "extract-zip": "^2.0.0",
+    "node-7z-archive": "^1.0.0",
+    "tar": "^6.2.0",
+    "unrar-promise": "^3.1.0",
+    "zlib": "^1.0.5"
+  }
+}
