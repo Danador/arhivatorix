@@ -77,13 +77,13 @@ function unzipArchives(folderName, foldersCondition, pathDirectory) {
 
             // Check if file is a known archive format
             if (fileExtension === 'zip') {
-            extractZip(filePath, folderName, foldersCondition, pathDirectory);
+                extractZip(filePath, folderName, foldersCondition, pathDirectory);
             } else if (fileExtension === '7z') {
-            extract7z(filePath, folderName, foldersCondition, pathDirectory);
+                extract7z(filePath, folderName, foldersCondition, pathDirectory);
             } else if (fileExtension === 'rar') {
-            extractRar(filePath, folderName, foldersCondition, pathDirectory);
+                extractRar(filePath, folderName, foldersCondition, pathDirectory);
             } else if (fileExtension === 'gz') {
-            extractGz(filePath, folderName, foldersCondition, pathDirectory);
+                extractGz(filePath, folderName, foldersCondition, pathDirectory);
             }
         }
         });
